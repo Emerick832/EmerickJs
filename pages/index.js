@@ -3,20 +3,16 @@ import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
-    <div className={styles.container}>
-      <div className={styles.title}>
-        
-        </div>
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{" "}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
-    </div>
+    <section className={styles.container}>
+      <div className={styles.menu}>
+        <a href="/">.me( )</a>
+        <div className={styles.treeitems}>
+        <a href="/" className={styles.items}>.about( )</a>
+        <a href="/" className={styles.items}>.work( )</a>
+        <a href="/" className={styles.items}>.contact( )</a>
+        <a href="/" className={styles.items}>.experience( )</a>
+      </div>
+      </div>      
+    </section>
   );
 }
