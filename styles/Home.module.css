@@ -31,10 +31,10 @@
   margin-right: 1.5em;
 }
 
-.social{
+.social {
   width: 11.25rem;
   height: 1.875rem;
-  margin-top: 0.25rem;
+  margin-top: 1rem;
   float: right;
   display: flex;
   flex-direction: row;
@@ -42,30 +42,54 @@
 }
 
 .corpo {
-  height: 41rem;
-  width: 65rem;  
+  height: 35rem;
+  width: 65rem;
   margin: auto;
   border: 1px solid #6baaac;
   border-left: none;
   border-right: none;
 }
 
-.titulo{
+.titulo {
   margin-top: 5rem;
   text-align: center;
   font-size: 2.5rem;
-  color: #BD5D5B;
+  color: #bd5d5b;
 }
 
 .corpoBox {
+  margin-top: 5rem;
+  width: 65rem;
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  width: 65rem;
   text-align: center;
 }
+.corpoItens {
+  margin-top: 2rem;
+  width: 21.5rem;
+  height: 12.15rem;
+}
 
+.corpoTitle {
+  padding: 0;
+  margin: 0;
+  color: #bd5d5b;
+  width: 21.5rem;
+  border: 1px solid red;
+}
+
+.corpoText{
+  text-align: start;
+  color: #6baaac;
+}
+
+.me{
+  width: 18rem;
+  height: 18.5rem;
+  border-radius: 50%;
+}
 @media (max-width: 600px) {
   .grid {
     width: 100%;
