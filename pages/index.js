@@ -24,11 +24,11 @@ export default function Home() {
       <div className={styles.titulo}>WebDeveloper</div>
       <div className={styles.corpo}>
         <div className={styles.social}>
-          <a href="https://github.com/Emerick832">
-            <img src="/github.svg" alt="" />
-          </a>
           <a href="https://www.linkedin.com/in/guilherme-emerick-26945816a/">
             <img src="/linkedin.svg" alt="" />
+          </a>
+          <a href="https://github.com/Emerick832">
+            <img src="/github.svg" alt="" />
           </a>
           <a href="">
             <img src="/facebook.svg" alt="" />
