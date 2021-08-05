@@ -28,7 +28,7 @@ export default function Home() {
             <img src="/github.svg" alt="" />
           </a>
           <a href="https://www.linkedin.com/in/guilherme-emerick-26945816a/">
-            <img src="/Linkedin.svg" alt="" />
+            <img src="/linkedin.svg" alt="" />
           </a>
           <a href="">
             <img src="/facebook.svg" alt="" />
